@@ -159,7 +159,7 @@ tarball:
 
 PHONY += version
 version:
-	@echo 'This is crosstool-NG version $(CT_VERSION)'
+	@echo 'This is crosstool-NG version Boostedtc-$(CT_VERSION)'
 	@echo
 	@echo 'Copyright (C) 2008  Yann E. MORIN <yann.morin.1998@free.fr>'
 	@echo 'This is free software; see the source for copying conditions.'
