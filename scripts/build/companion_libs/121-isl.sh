@@ -14,7 +14,8 @@ if [ "${CT_ISL}" = "y" ]; then
 do_isl_get() {
     CT_GetFile "isl-${CT_ISL_VERSION}"  \
         ftp://ftp.linux.student.kuleuven.be/pub/people/skimo/isl/ \
-        http://mirrors.kernel.org/sources.redhat.com/gcc/infrastructure
+        http://mirrors.kernel.org/sources.redhat.com/gcc/infrastructure \
+        http://isl.gforge.inria.fr/
 }
 
 # Extract ISL
